@@ -1,0 +1,13 @@
+@import '~bootstrap/scss/bootstrap';
+
+
+:root {
+    --bg_dark: rgb(45, 41, 41);
+
+}
+
+
+// Utilities //
+.bg_dark {
+    background-color: var(--bg_dark);
+}
