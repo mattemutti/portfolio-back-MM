@@ -8,7 +8,6 @@
         <div class="row py-4">
             <div class=" text-center py-4">
                 <div class="d-flex flex-column">
-
                     <div class="d-flex py-5">
                         <div class="d-flex text-white">Title:</div>
                         <div class="d-flex text-white">{{ $project->title }}</div>
