@@ -19,7 +19,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => [env('APP_FRONTEND_URL'), 'https://muttimatteo.com'],
+    'allowed_origins' => [env('APP_FRONTEND_URL'), 'http://muttimatteo.com'],
 
     'allowed_origins_patterns' => ['*'],
 
