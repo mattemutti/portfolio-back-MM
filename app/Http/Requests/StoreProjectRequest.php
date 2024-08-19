@@ -26,7 +26,7 @@ class StoreProjectRequest extends FormRequest
             'technologies' => 'exists:technologies,id',
             'title' => 'required|min:5|max:150',
             'cover_image' => 'nullable|image|max:500',
-            'slug' => 'nullable',
+            // 'slug' => 'nullable',
             'description' => 'nullable',
             'create_data' => 'nullable',
             'repo' => 'nullable',
