@@ -20,9 +20,3 @@ export default defineConfig({
         }
     }
 });
-
-module.exports = {
-    devServer: {
-        proxy: 'https://back-muttimatteo.com'
-    }
-}
