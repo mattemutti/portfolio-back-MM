@@ -23,6 +23,6 @@ export default defineConfig({
 
 module.exports = {
     devServer: {
-        proxy: 'https://muttimatteo.com'
+        proxy: 'https://back-muttimatteo.com'
     }
 }
