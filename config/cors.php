@@ -19,9 +19,9 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => [env('APP_FRONTEND_URL'), 'http://muttimatteo.com'],
+    'allowed_origins' => [env('APP_FRONTEND_URL')],
 
-    'allowed_origins_patterns' => ['*'],
+    'allowed_origins_patterns' => [],
 
     'allowed_headers' => ['*'],
 
@@ -31,6 +31,5 @@ return [
 
     'supports_credentials' => false,
 
-    'Access-Control-Allow-Origin' => ['*'],
 
 ];
