@@ -42,6 +42,7 @@ class ProjectController extends Controller
     public function store(StoreProjectRequest $request, Faker $faker)
     {
         //dd($request->all());
+
         //validiamo
         $validated = $request->validated();
 
@@ -55,16 +56,14 @@ class ProjectController extends Controller
         //     //dd($validated, $image_path);
         //     $validated['cover_image'] = $image_path;
         // }
-        //creiamo
-
-
-        $project = Project::create($validated);
-
-
 
         if ($request->has('technologies')) {
             $project->technologies()->attach($validated['technologies']);
         }
+
+        //creiamo
+        $project = Project::create($validated);
+
 
         //reindiriziamo
         return to_route('admin.projects.index')->with('message', 'Project Create Sucessufully');
