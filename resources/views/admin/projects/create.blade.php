@@ -35,7 +35,7 @@
             </div> --}}
 
             {{-- technologies --}}
-            <label for="cover_image" class="form-label text-white">Select one or more technologies</label>
+            {{-- <label for="cover_image" class="form-label text-white">Select one or more technologies</label>
             <div class="mb-3 d-flex gap-3 flex-wrap ">
                 @foreach ($technologies as $technology)
                     <div class="form-check text-white">
@@ -49,10 +49,10 @@
                 @error('technologies')
                     <div class="text-danger">{{ $message }}</div>
                 @enderror
-            </div>
+            </div> --}}
 
             {{-- type --}}
-            <div class="mb-3 py-4">
+            {{-- <div class="mb-3 py-4">
                 <label for="type_id" class="form-label text-white">Type</label>
                 <select class="form-select bg-dark text-white form-select-lg" name="type_id" id="type_id">
                     <option selected disabled>Select a type</option>
@@ -61,7 +61,7 @@
                             {{ $type->name }}</option>
                     @endforeach
                 </select>
-            </div>
+            </div> --}}
 
             {{-- date --}}
             {{-- <div class="mb-3">
