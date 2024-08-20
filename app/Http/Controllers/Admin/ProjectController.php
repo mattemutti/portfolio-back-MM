@@ -50,11 +50,11 @@ class ProjectController extends Controller
         $validated['slug'] = $slug;
         //dd($slug);
 
-        if ($request->has('cover_image')) {
-            $image_path = Storage::put('uploads', $validated['cover_image']);
-            //dd($validated, $image_path);
-            $validated['cover_image'] = $image_path;
-        }
+        // if ($request->has('cover_image')) {
+        //     $image_path = Storage::put('uploads', $validated['cover_image']);
+        //     //dd($validated, $image_path);
+        //     $validated['cover_image'] = $image_path;
+        // }
         //creiamo
 
 
