@@ -39,7 +39,7 @@ class ProjectController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(StoreProjectRequest $request, Faker $faker)
+    public function store(StoreProjectRequest $request)
     {
 
         //validiamo

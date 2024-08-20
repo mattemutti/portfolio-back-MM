@@ -38,7 +38,7 @@ class LeadController extends Controller
         $new_lead->save();
 
         // inviamo la mail all'admin del sito, passando il nuovo oggetto Lead
-        Mail::to('info@boolpress.com')->send(new NewLeadMessageMD($new_lead));
+        Mail::to('mattemutti@gmail.com')->send(new NewLeadMessageMD($new_lead));
 
         return response()->json([
             'success' => true,
