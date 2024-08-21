@@ -61,9 +61,9 @@ class ProjectController extends Controller
         $project = Project::create($validated);
 
 
-        // if ($request->has('technologies')) {
-        //     $project->technologies()->attach($validated['technologies']);
-        // }
+        if ($request->has('technologies')) {
+            $project->technologies()->attach($validated['technologies']);
+        }
 
         //reindiriziamo
         return to_route('admin.projects.index')->with('message', 'Project Create Sucessufully');
