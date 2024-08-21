@@ -111,6 +111,9 @@ class ProjectController extends Controller
 
         if ($request->has('technologies')) {
             $project->technologies()->sync($validated['technologies']);
+        } else {
+            $project->technologies()->sync([]);
+
         }
 
         $project->update($validated);
