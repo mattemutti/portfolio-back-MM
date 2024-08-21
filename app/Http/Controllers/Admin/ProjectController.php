@@ -46,8 +46,8 @@ class ProjectController extends Controller
         $validated = $request->validated();
 
 
-        // $slug = Str::slug($request->title, '-');
-        // $validated['slug'] = $slug;
+        $slug = Str::slug($request->title, '-');
+        $validated['slug'] = $slug;
 
 
         // if ($request->has('cover_image')) {
