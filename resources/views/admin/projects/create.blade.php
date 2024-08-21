@@ -23,7 +23,7 @@
             </div>
 
             {{-- image --}}
-            {{-- <div class="mb-3">
+            <div class="mb-3">
                 <label for="cover_image" class="form-label text-white">Image</label>
                 <input type="file" class="form-control bg-dark text-white @error('cover_image') is-invalid @enderror"
                     name="cover_image" id="cover_image" aria-describedby="cover_imageeHelper" placeholder="project"
@@ -32,7 +32,7 @@
                 @error('cover_image')
                     <div class="text-danger">{{ $message }}</div>
                 @enderror
-            </div> --}}
+            </div>
 
             {{-- technologies --}}
             {{-- <label for="cover_image" class="form-label text-white">Select one or more technologies</label>
@@ -64,7 +64,7 @@
             </div> --}}
 
             {{-- date --}}
-            {{-- <div class="mb-3">
+            <div class="mb-3">
                 <label for="create_data" class="form-label text-white">Date</label>
                 <input type="text" class="form-control bg-dark text-white @error('create_data') is-invalid @enderror"
                     name="create_data" id="create_data" aria-describedby="create_dataHelper" placeholder="project date"
@@ -73,10 +73,10 @@
                 @error('create_data')
                     <div class="text-danger">{{ $message }}</div>
                 @enderror
-            </div> --}}
+            </div>
 
             {{-- repo --}}
-            {{-- <div class="mb-3">
+            <div class="mb-3">
                 <label for="repo" class="form-label text-white">Repo</label>
                 <input type="text"
                     class="form-control bg-dark text-white bg-dark text-white @error('repo') is-invalid @enderror"
@@ -86,10 +86,10 @@
                 @error('repo')
                     <div class="text-danger">{{ $message }}</div>
                 @enderror
-            </div> --}}
+            </div>
 
             {{-- code --}}
-            {{-- <div class="mb-3">
+            <div class="mb-3">
                 <label for="code" class="form-label text-white">Code</label>
                 <input type="text" class="form-control bg-dark text-white @error('code') is-invalid @enderror"
                     name="code" id="code" aria-describedby="codeHelper" placeholder="project date"
@@ -98,10 +98,10 @@
                 @error('code')
                     <div class="text-danger">{{ $message }}</div>
                 @enderror
-            </div> --}}
+            </div>
 
             {{-- video --}}
-            {{-- <div class="mb-3">
+            <div class="mb-3">
                 <label for="video" class="form-label text-white">Video</label>
                 <input type="text" class="form-control bg-dark text-white @error('video') is-invalid @enderror"
                     name="video" id="video" aria-describedby="videoHelper" placeholder="project date"
@@ -110,10 +110,10 @@
                 @error('video')
                     <div class="text-danger">{{ $message }}</div>
                 @enderror
-            </div> --}}
+            </div>
 
             {{-- description --}}
-            {{-- <div class="mb-3">
+            <div class="mb-3">
                 <label for="video" class="form-label text-white">Description</label>
                 <div class="form-floating">
                     <textarea name="description" id="description"
@@ -125,7 +125,7 @@
                         @enderror
                     </label>
                 </div>
-            </div> --}}
+            </div>
 
             <button type="submit" class="btn btn-secondary">Create</button>
 

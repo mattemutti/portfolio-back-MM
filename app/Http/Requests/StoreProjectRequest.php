@@ -26,12 +26,12 @@ class StoreProjectRequest extends FormRequest
             // 'technologies' => 'exists:technologies,id',
             'title' => 'required|min:5|max:150',
             'slug' => 'nullable',
-            // 'cover_image' => 'nullable|image|max:500',
-            // 'description' => 'nullable',
-            // 'create_data' => 'nullable',
-            // 'repo' => 'nullable',
-            // 'code' => 'nullable',
-            // 'video' => 'nullable'
+            'cover_image' => 'nullable|image|max:500',
+            'description' => 'nullable',
+            'create_data' => 'nullable',
+            'repo' => 'nullable',
+            'code' => 'nullable',
+            'video' => 'nullable'
         ];
     }
 }
