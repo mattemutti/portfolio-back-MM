@@ -52,7 +52,7 @@
             </div> --}}
 
             {{-- type --}}
-            {{-- <div class="mb-3 py-4">
+            <div class="mb-3 py-4">
                 <label for="type_id" class="form-label text-white">Type</label>
                 <select class="form-select bg-dark text-white form-select-lg" name="type_id" id="type_id">
                     <option selected disabled>Select a type</option>
@@ -61,7 +61,7 @@
                             {{ $type->name }}</option>
                     @endforeach
                 </select>
-            </div> --}}
+            </div>
 
             {{-- date --}}
             <div class="mb-3">
