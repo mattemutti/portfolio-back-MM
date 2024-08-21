@@ -37,7 +37,7 @@ class NewLeadMessageMD extends Mailable
     /**
      * Get the message content definition.
      */
-    public function content(): Content
+    public function content()
     {
         return new Content(
             markdown: 'mail.new-lead-message-m-d',
