@@ -35,7 +35,7 @@
             </div>
 
             {{-- technologies --}}
-            <label for="cover_image" class="form-label text-white">Select one or more technologies</label>
+            <label for="technologies" class="form-label text-white">Select one or more technologies</label>
             <div class="mb-3 d-flex gap-3 flex-wrap ">
                 @foreach ($technologies as $technology)
                     <div class="form-check text-white">
